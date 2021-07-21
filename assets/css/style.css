@@ -1,0 +1,61 @@
+/*fuente*/
+
+.font-lobster-title {
+    font-family: 'Lobster', cursive;
+}
+
+.tarjeta-descripcion-titulo {
+    width: min-content;
+}
+
+
+/*contenedor*/
+
+.container {
+    max-width: 1980px;
+}
+
+
+/*separador*/
+
+hr {
+    background-color: #000000;
+}
+
+
+/* estilo de puntos del carrusel*/
+
+.carousel-indicators {
+    top: 100%;
+}
+
+.carousel-indicators li {
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/*estilo de cambio color titulo tabla receta*/
+
+.change-color {
+    color: red;
+}
+
+
+/*ajuste de texto boton card-descripcion*/
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        font-size: 0.8em;
+    }
+    .tarjeta-descripcion-titulo {
+        width: 100%;
+        text-align: center;
+    }
+    .tarjeta-descripcion-parrafo {
+        width: 100%;
+        text-align: center;
+    }
+}
